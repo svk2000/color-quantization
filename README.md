@@ -11,9 +11,17 @@ Setting up
   
 ### Program Execution
 
-- Executing Gradient Descent without using any library to calculate Mean Squared Error for Train and test data
+- Program accepts comma seperated K Values as argument 
 
-		python Linear_Regression_Model.py >> output.txt
+		python Color_Quantization.py 2,4,6,8,12,16  - Comma separated K value
+		python Color_Quantization.py - If none provided default [4,8,12]
+		
+
+- Images used 
+
+		python Color_Quantization.py 2,4,6,8,12,16  - Comma separated K value
+		python Color_Quantization.py - If none provided default [4,8,12]
+		
 
 - Above program outputs two plots with below file names in the same project folder 
 along with output txt file which records ***learning rate***, ***Number of iterations***, ***Train MSE***, ***Test MSE***
