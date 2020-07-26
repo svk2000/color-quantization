@@ -17,23 +17,16 @@ Setting up
 		python Color_Quantization.py - If none provided default [4,8,12]
 		
 
-- Images used 
+- Images used from this URL https://personal.utdallas.edu/~axn112530/cs6375/unsupervised/images/
 
-		python Color_Quantization.py 2,4,6,8,12,16  - Comma separated K value
-		python Color_Quantization.py - If none provided default [4,8,12]
-		
+		image1.jpg
+		image2.jpg
+		image3.jpg
 
-- Above program outputs two plots with below file names in the same project folder 
-along with output txt file which records ***learning rate***, ***Number of iterations***, ***Train MSE***, ***Test MSE***
+- Output images will get generated in **quantizedImages** folder
 
-		MSE_vs_Iterations_LearningRate0.1.png
-		MSE_vs_Iterations_LearningRate0.01.png
-		output.txt
+		Sample File Names
+		------------------
+		quantized_image_2_K_12.jpg
+		quantized_image_1_K_2.jpg
 
-- Executing Gradient Descent using sklearn library
-
-		python SkiLearn_Regression_Model.py >> output1.txt
-
-- Above program outputs below file names in the same project folder which records ***weights caluclated***, ***Mean Squared Error***
-
-		output1.txt
